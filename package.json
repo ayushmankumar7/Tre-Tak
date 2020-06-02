@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "npx tailwindcss build src/tailwind.css -o public/static/css/style.css"
+    "build:css": "npx tailwindcss build src/tailwind.css -o public/static/css/style.css",
+    "start": "python3 wsgi.py"
   },
   "repository": {
     "type": "git",
